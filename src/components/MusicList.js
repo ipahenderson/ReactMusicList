@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Song from './Song';
 
-class MusicList extends Component {
+class MusicList extends React.Component {
 
   render(){
     const songNodes = this.props.music.map((song, index) => {
@@ -10,7 +10,6 @@ class MusicList extends Component {
 
         </Song>
       )
-      console.log(this.props);
     })
 
     return <div className="music-list"> {songNodes}</div>
