@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: futura;
+}
+
+.music-box{
+  width: 720px;
+  padding: 5px 5px 5px 5px;
+  border: 2px solid black;
+  border-radius: 3px;
+  background-color: lightblue;
+  margin: 5px 0px 0px 5px;
+  font-size: 12px;
+}
+
+.music-list{
+  width: inherit;
+  display: inline-grid;
+}
+
+.song{
+  height: 50px;
+  border: 1px solid black;
+  margin-bottom: 2px;
+  border-radius: 2px;
+  text-align: right;
+  padding: 3px 3px 3px 3px;
+}
+
+.image{
+  width: 50px;
+  float: left;
+}
+
+.position{
+  font-size: 24px;
+  margin: 10px 5px 5px 5px
+}
+.position-box{
+  width: 50px;
+  height: 50px;
+  float:left;
+  text-align: center;
+}
+h3{
+  margin: 0px 0px 0px 0px;
+}
+
+h1{
+  text-align: center;
+}
